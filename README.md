@@ -19,11 +19,11 @@ User should already have
 
 ### Installation
 
-Once you have the above pre-requisite installed you can go with the instructions below
+Once you have the above pre-requisite installed you can follow the instructions below
 
 Clone this repository
 ```sh
-$ git clone https://github.com/vbernabe/vagrant-wordpress.git
+$ git clone https://github.com/vbernabe/vagrant-wordpress.git vagrant-wordpress
 ```
 
 Download vagrant-wordpress.box
