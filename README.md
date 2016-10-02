@@ -2,7 +2,7 @@
 
 This is an easy to use Vagrant box that includes all setup needed for Wordpress. See below on the list of items included on this box.
 
-  - Ubuntu 14.04
+  - Ubuntu 12.04
   - PHP 5
   - Nginx
   - MySQL
@@ -40,10 +40,11 @@ $ vagrant box add vagrant-wordpress vagrant-wordpress.box
 
 Set your Wordpress local URI
 ```sh
-$ vi /etc/hosts
+$ sudo vi /etc/hosts
 Add this line: 
 192.168.33.44 	wordpress.local.com
 ```
+For Windows /etc/hosts equivalent is under \WINDOWS\system32\drivers\etc make sure that your are updating as Super User.
 
 Start your vagrant box
 ```sh
@@ -63,6 +64,8 @@ To stop vagrant
 ```sh
 $ vagrant halt
 ```
+
+For Windows Users you need to install PuTTy to manage Vagrant
 
 > Other vagrant commands: https://www.vagrantup.com/docs/cli/
 
